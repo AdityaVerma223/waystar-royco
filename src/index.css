@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', Georgia, serif;
+}
+
+.font-serif-pro {
+  font-family: 'Newsreader', Georgia, serif;
+}
+
+/* Custom corporate gold & navy aesthetics */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #fce08b 0%, #d4af37 50%, #aa8423 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border-glow {
+  border-color: rgba(212, 175, 55, 0.28);
+  box-shadow: 0 0 25px -5px rgba(212, 175, 55, 0.08);
+}
+
+.navy-card {
+  background: radial-gradient(circle at top left, rgba(17, 24, 39, 0.95), rgba(7, 12, 22, 0.98));
+  border: 1px solid rgba(212, 175, 55, 0.15);
+}
